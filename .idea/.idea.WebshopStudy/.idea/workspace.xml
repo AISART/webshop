@@ -27,6 +27,14 @@
   <component name="ChangeListManager">
     <list default="true" id="726f6c70-ae77-40c1-af96-4e7bb1d50b17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/core/core.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/core/core.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/core/interceptors/error.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/core/interceptors/error.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/core/test-error/test-error.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/core/test-error/test-error.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/core/test-error/test-error.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/core/test-error/test-error.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +46,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A25AB214-B03F-4A7F-B841-46B921ED993F/2F/ParameterExpression.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -134,6 +141,7 @@
       <workItem from="1606811699801" duration="9074000" />
       <workItem from="1606837556911" duration="994000" />
       <workItem from="1606904650440" duration="24904000" />
+      <workItem from="1607597055513" duration="1357000" />
     </task>
     <servers />
   </component>
