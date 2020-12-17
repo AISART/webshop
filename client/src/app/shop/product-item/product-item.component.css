@@ -27,9 +27,9 @@
   z-index: 1000;
   transition: all 0.5s;
 }
-.hover-overlay button:first-of-type {
+.hover-overlay button:first-child {
   transform: translateX(-20px);
 }
-.hover-overlay button:last-of-type {
+.hover-overlay button:last-child {
   transform: translateX(20px);
 }
