@@ -26,34 +26,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="726f6c70-ae77-40c1-af96-4e7bb1d50b17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Dtos/AddressDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Dtos/LoginDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Dtos/RegisterDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Dtos/UserDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Extensions/IdentityServiceExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Extensions/UserManagerExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/Identity/Address.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/Identity/AppUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Interfaces/ITokenService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Identity/AppIdentityDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Identity/AppIdentityDbContextSeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Identity/Migrations/20201218095339_IdentityInitial.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Identity/Migrations/20201218095339_IdentityInitial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Identity/Migrations/AppIdentityDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Services/TokenService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Dtos/BasketItemDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Dtos/CustomerBasketDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/BuggyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/BuggyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/BasketController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/BasketController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Dtos/AddressDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Dtos/AddressDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Dtos/RegisterDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Dtos/RegisterDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Extensions/SwaggerServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/SwaggerServiceExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infastructure/Infastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infastructure/Infastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Entities/CustomerBasket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/CustomerBasket.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +57,6 @@
       <option value="$PROJECT_DIR$/Core/Interfaces/IBasketRepository.cs" />
       <option value="$PROJECT_DIR$/Infastructure/Data/BasketRepository.cs" />
       <option value="$PROJECT_DIR$/Core/Entities/BasketItem.cs" />
-      <option value="$PROJECT_DIR$/Core/Entities/CustomerBasket.cs" />
-      <option value="$PROJECT_DIR$/API/Controllers/BasketController.cs" />
       <option value="$PROJECT_DIR$/Core/Entities/Address.cs" />
       <option value="$PROJECT_DIR$/Core/Entities/AppUser.cs" />
       <option value="$PROJECT_DIR$/Core/Entities/Identity/Address.cs" />
@@ -85,7 +66,6 @@
       <option value="$PROJECT_DIR$/API/Program.cs" />
       <option value="$PROJECT_DIR$/API/Dtos/LoginDto.cs" />
       <option value="$PROJECT_DIR$/API/Dtos/UserDto.cs" />
-      <option value="$PROJECT_DIR$/API/Dtos/RegisterDto.cs" />
       <option value="$PROJECT_DIR$/Core/Interfaces/ITokenService.cs" />
       <option value="$PROJECT_DIR$/Infastructure/Services/TokenService.cs" />
       <option value="$PROJECT_DIR$/API/appsettings.Development.json" />
@@ -96,8 +76,14 @@
       <option value="$PROJECT_DIR$/API/Extensions/IdentityServiceExtensions.cs" />
       <option value="$PROJECT_DIR$/API/Extensions/UserManagerExtensions.cs" />
       <option value="$PROJECT_DIR$/API/Dtos/AddressDto.cs" />
-      <option value="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" />
       <option value="$PROJECT_DIR$/API/Controllers/AccountController.cs" />
+      <option value="$PROJECT_DIR$/API/Dtos/RegisterDto.cs" />
+      <option value="$PROJECT_DIR$/Core/Entities/CustomerBasket.cs" />
+      <option value="$PROJECT_DIR$/API/Dtos/CustomerBasketDto.cs" />
+      <option value="$PROJECT_DIR$/API/Dtos/BasketItemDto.cs" />
+      <option value="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" />
+      <option value="$PROJECT_DIR$/API/Controllers/BasketController.cs" />
+      <option value="$PROJECT_DIR$/API/Extensions/SwaggerServiceExtensions.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1l32wYSk9moyTtbKnMOll9RYy4o" />
@@ -167,7 +153,7 @@
       <workItem from="1607971361910" duration="830000" />
       <workItem from="1608110532988" duration="6297000" />
       <workItem from="1608141687597" duration="1503000" />
-      <workItem from="1608195075734" duration="13322000" />
+      <workItem from="1608195075734" duration="15928000" />
     </task>
     <servers />
   </component>
