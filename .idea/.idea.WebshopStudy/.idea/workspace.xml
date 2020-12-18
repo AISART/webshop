@@ -26,7 +26,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="726f6c70-ae77-40c1-af96-4e7bb1d50b17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Dtos/AddressDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Dtos/LoginDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Dtos/RegisterDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Dtos/UserDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Extensions/IdentityServiceExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Extensions/UserManagerExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Entities/Identity/Address.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Entities/Identity/AppUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Interfaces/ITokenService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infastructure/Identity/AppIdentityDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infastructure/Identity/AppIdentityDbContextSeed.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infastructure/Identity/Migrations/20201218095339_IdentityInitial.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infastructure/Identity/Migrations/20201218095339_IdentityInitial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infastructure/Identity/Migrations/AppIdentityDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infastructure/Services/TokenService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/BuggyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/BuggyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infastructure/Infastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infastructure/Infastructure.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +66,38 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E5030A1F-2415-49C9-932F-523040B6A558/10/92398f9a/IConnectionMultiplexer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A25AB214-B03F-4A7F-B841-46B921ED993F/2F/ParameterExpression.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E2E921E7-9016-4146-93C6-0B68FF6FD549/2/IdentityDbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/30480658-3F40-4354-94C7-05796FD997FB/1D/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/API/appsettings.Development.json" />
       <option value="$PROJECT_DIR$/Core/Interfaces/IBasketRepository.cs" />
       <option value="$PROJECT_DIR$/Infastructure/Data/BasketRepository.cs" />
       <option value="$PROJECT_DIR$/Core/Entities/BasketItem.cs" />
       <option value="$PROJECT_DIR$/Core/Entities/CustomerBasket.cs" />
       <option value="$PROJECT_DIR$/API/Controllers/BasketController.cs" />
-      <option value="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" />
+      <option value="$PROJECT_DIR$/Core/Entities/Address.cs" />
+      <option value="$PROJECT_DIR$/Core/Entities/AppUser.cs" />
+      <option value="$PROJECT_DIR$/Core/Entities/Identity/Address.cs" />
+      <option value="$PROJECT_DIR$/Core/Entities/Identity/AppUser.cs" />
+      <option value="$PROJECT_DIR$/Infastructure/Identity/AppIdentityDbContext.cs" />
+      <option value="$PROJECT_DIR$/Infastructure/Identity/AppIdentityDbContextSeed.cs" />
+      <option value="$PROJECT_DIR$/API/Program.cs" />
+      <option value="$PROJECT_DIR$/API/Dtos/LoginDto.cs" />
+      <option value="$PROJECT_DIR$/API/Dtos/UserDto.cs" />
+      <option value="$PROJECT_DIR$/API/Dtos/RegisterDto.cs" />
+      <option value="$PROJECT_DIR$/Core/Interfaces/ITokenService.cs" />
+      <option value="$PROJECT_DIR$/Infastructure/Services/TokenService.cs" />
+      <option value="$PROJECT_DIR$/API/appsettings.Development.json" />
+      <option value="$PROJECT_DIR$/API/appsettings.json" />
       <option value="$PROJECT_DIR$/API/Startup.cs" />
+      <option value="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" />
+      <option value="$PROJECT_DIR$/API/Controllers/BuggyController.cs" />
+      <option value="$PROJECT_DIR$/API/Extensions/IdentityServiceExtensions.cs" />
+      <option value="$PROJECT_DIR$/API/Extensions/UserManagerExtensions.cs" />
+      <option value="$PROJECT_DIR$/API/Dtos/AddressDto.cs" />
+      <option value="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" />
+      <option value="$PROJECT_DIR$/API/Controllers/AccountController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1l32wYSk9moyTtbKnMOll9RYy4o" />
@@ -63,10 +111,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="SymbolServersPageId" />
@@ -119,7 +167,7 @@
       <workItem from="1607971361910" duration="830000" />
       <workItem from="1608110532988" duration="6297000" />
       <workItem from="1608141687597" duration="1503000" />
-      <workItem from="1608195075734" duration="617000" />
+      <workItem from="1608195075734" duration="13322000" />
     </task>
     <servers />
   </component>
