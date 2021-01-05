@@ -26,39 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="726f6c70-ae77-40c1-af96-4e7bb1d50b17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/dataSources/035efeeb-6dcf-4ae9-8a27-77e52172a349.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Controllers/OrdersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Dtos/OrderDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Extensions/ClaimsPrincipelExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/OrderAggregate/Address.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/OrderAggregate/DeliveryMethod.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/OrderAggregate/Order.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/OrderAggregate/OrderItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/OrderAggregate/OrderStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Entities/OrderAggregate/ProductItemOrdered.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Interfaces/IOrderService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Interfaces/IUnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Data/Config/DeliveryMethodConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Data/Config/OrderConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Data/Config/OrderItemConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Data/Migrations/20201230140813_OrderEntityAdded.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Data/Migrations/20201230140813_OrderEntityAdded.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Data/SeedData/delivery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Data/UnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Services/OrderService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Dtos/OrderItemDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Dtos/OrderToReturnDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Helpers/OrderItemUrlResolver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Specifications/OrdersWithItemsAndOrderingSpecification.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/dataSources/c5a0f4ac-6e66-4eb2-a35c-17ee3356574a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/dataSources/c5a0f4ac-6e66-4eb2-a35c-17ee3356574a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/dataSources/db71aaa2-35b2-49d5-9d66-313977e8333b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/dataSources/db71aaa2-35b2-49d5-9d66-313977e8333b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/OrdersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/OrdersController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Interfaces/IGenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Interfaces/IGenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infastructure/Data/GenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infastructure/Data/GenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infastructure/Data/Migrations/StoreContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infastructure/Data/Migrations/StoreContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infastructure/Data/StoreContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infastructure/Data/StoreContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infastructure/Data/StoreContextSeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infastructure/Data/StoreContextSeed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infastructure/Services/OrderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infastructure/Services/OrderService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,10 +61,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Core/Interfaces/IBasketRepository.cs" />
-      <option value="$PROJECT_DIR$/Infastructure/Data/BasketRepository.cs" />
-      <option value="$PROJECT_DIR$/Core/Entities/BasketItem.cs" />
-      <option value="$PROJECT_DIR$/Core/Entities/Address.cs" />
       <option value="$PROJECT_DIR$/Core/Entities/AppUser.cs" />
       <option value="$PROJECT_DIR$/Core/Entities/Identity/Address.cs" />
       <option value="$PROJECT_DIR$/Core/Entities/Identity/AppUser.cs" />
@@ -120,13 +93,10 @@
       <option value="$PROJECT_DIR$/Infastructure/Data/Config/OrderConfiguration.cs" />
       <option value="$PROJECT_DIR$/Infastructure/Data/Config/OrderItemConfiguration.cs" />
       <option value="$PROJECT_DIR$/Infastructure/Data/Config/DeliveryMethodConfiguration.cs" />
-      <option value="$PROJECT_DIR$/Infastructure/Data/StoreContext.cs" />
       <option value="$PROJECT_DIR$/Infastructure/Data/StoreContextSeed.cs" />
       <option value="$PROJECT_DIR$/Infastructure/Data/Migrations/20201230140813_OrderEntityAdded.cs" />
-      <option value="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" />
       <option value="$PROJECT_DIR$/API/Extensions/ClaimsPrincipelExtensions.cs" />
       <option value="$PROJECT_DIR$/API/Dtos/OrderDto.cs" />
-      <option value="$PROJECT_DIR$/API/Controllers/OrdersController.cs" />
       <option value="$PROJECT_DIR$/Core/Entities/OrderAggregate/Order.cs" />
       <option value="$PROJECT_DIR$/Core/Interfaces/IOrderService.cs" />
       <option value="$PROJECT_DIR$/Core/Interfaces/IUnitOfWork.cs" />
@@ -135,6 +105,13 @@
       <option value="$PROJECT_DIR$/Core/Interfaces/IGenericRepository.cs" />
       <option value="$PROJECT_DIR$/Infastructure/Data/GenericRepository.cs" />
       <option value="$PROJECT_DIR$/Infastructure/Services/OrderService.cs" />
+      <option value="$PROJECT_DIR$/Infastructure/Data/StoreContext.cs" />
+      <option value="$PROJECT_DIR$/Core/Specifications/OrdersWithItemsAndOrderingSpecification.cs" />
+      <option value="$PROJECT_DIR$/API/Dtos/OrderItemDto.cs" />
+      <option value="$PROJECT_DIR$/API/Dtos/OrderToReturnDto.cs" />
+      <option value="$PROJECT_DIR$/API/Controllers/OrdersController.cs" />
+      <option value="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" />
+      <option value="$PROJECT_DIR$/API/Helpers/OrderItemUrlResolver.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1l32wYSk9moyTtbKnMOll9RYy4o" />
@@ -207,7 +184,8 @@
       <workItem from="1608195075734" duration="17234000" />
       <workItem from="1609166368038" duration="4981000" />
       <workItem from="1609266539363" duration="6709000" />
-      <workItem from="1609700822169" duration="1661000" />
+      <workItem from="1609700822169" duration="1863000" />
+      <workItem from="1609786486513" duration="5103000" />
     </task>
     <servers />
   </component>
