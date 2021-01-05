@@ -110,8 +110,8 @@
       <option value="$PROJECT_DIR$/API/Dtos/OrderItemDto.cs" />
       <option value="$PROJECT_DIR$/API/Dtos/OrderToReturnDto.cs" />
       <option value="$PROJECT_DIR$/API/Controllers/OrdersController.cs" />
-      <option value="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" />
       <option value="$PROJECT_DIR$/API/Helpers/OrderItemUrlResolver.cs" />
+      <option value="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1l32wYSk9moyTtbKnMOll9RYy4o" />
@@ -185,7 +185,7 @@
       <workItem from="1609166368038" duration="4981000" />
       <workItem from="1609266539363" duration="6709000" />
       <workItem from="1609700822169" duration="1863000" />
-      <workItem from="1609786486513" duration="5103000" />
+      <workItem from="1609786486513" duration="5990000" />
     </task>
     <servers />
   </component>
