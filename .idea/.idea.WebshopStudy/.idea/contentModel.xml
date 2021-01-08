@@ -18,6 +18,7 @@
           <e p="BuggyController.cs" t="Include" />
           <e p="ErrorController.cs" t="Include" />
           <e p="OrdersController.cs" t="Include" />
+          <e p="PaymentsController.cs" t="Include" />
           <e p="ProductsController.cs" t="Include" />
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
@@ -121,6 +122,7 @@
           <e p="IBasketRepository.cs" t="Include" />
           <e p="IGenericRepository.cs" t="Include" />
           <e p="IOrderService.cs" t="Include" />
+          <e p="IPaymentService.cs" t="Include" />
           <e p="IProductRepository.cs" t="Include" />
           <e p="ITokenService.cs" t="Include" />
           <e p="IUnitOfWork.cs" t="Include" />
@@ -135,6 +137,7 @@
         <e p="Specifications" t="Include">
           <e p="BaseSpecification.cs" t="Include" />
           <e p="ISpecification.cs" t="Include" />
+          <e p="OrderByPaymentIntentIdWithItemsSpecification.cs" t="Include" />
           <e p="OrdersWithItemsAndOrderingSpecification.cs" t="Include" />
           <e p="ProductSpecParams.cs" t="Include" />
           <e p="ProductsWithTypesAndBrandsSpecification.cs" t="Include" />
@@ -190,6 +193,7 @@
         </e>
         <e p="Services" t="Include">
           <e p="OrderService.cs" t="Include" />
+          <e p="PaymentService.cs" t="Include" />
           <e p="TokenService.cs" t="Include" />
         </e>
       </e>
