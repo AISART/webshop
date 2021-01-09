@@ -26,46 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="726f6c70-ae77-40c1-af96-4e7bb1d50b17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API/Controllers/PaymentsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Interfaces/IPaymentService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Specifications/OrderByPaymentIntentIdWithItemsSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infastructure/Services/PaymentService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/orders/order-detailed/order-detailed.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/orders/order-detailed/order-detailed.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/orders/order-detailed/order-detailed.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/orders/orders-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/orders/orders.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/orders/orders.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/orders/orders.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/orders/orders.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/orders/orders.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Helpers/CachedAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Interfaces/IResponseCacheService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infastructure/Services/ResponseCacheService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebshopStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Dtos/CustomerBasketDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Dtos/CustomerBasketDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Entities/OrderAggregate/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/OrderAggregate/Order.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infastructure/Infastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infastructure/Infastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infastructure/Services/OrderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infastructure/Services/OrderService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/basket/basket.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/basket/basket.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/checkout/checkout-address/checkout-address.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/checkout/checkout-address/checkout-address.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/checkout/checkout-address/checkout-address.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/checkout/checkout-address/checkout-address.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/checkout/checkout-delivery/checkout-delivery.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/checkout/checkout-delivery/checkout-delivery.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/checkout/checkout-payment/checkout-payment.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/checkout/checkout-payment/checkout-payment.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/checkout/checkout-payment/checkout-payment.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/checkout/checkout-payment/checkout-payment.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/checkout/checkout-review/checkout-review.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/checkout/checkout-review/checkout-review.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/checkout/checkout-review/checkout-review.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/checkout/checkout-review/checkout-review.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/checkout/checkout-success/checkout-success.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/checkout/checkout-success/checkout-success.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/checkout/checkout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/checkout/checkout.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/checkout/checkout.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/core/interceptors/loading.interceptors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/core/interceptors/loading.interceptors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/core/nav-bar/nav-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/core/nav-bar/nav-bar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/shared/components/order-totals/order-totals.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/components/order-totals/order-totals.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/shared/components/stepper/stepper.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/components/stepper/stepper.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/shared/components/stepper/stepper.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/components/stepper/stepper.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/shared/models/basket.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/shared/models/basket.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,9 +57,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Infastructure/Identity/AppIdentityDbContextSeed.cs" />
-      <option value="$PROJECT_DIR$/API/Program.cs" />
-      <option value="$PROJECT_DIR$/API/Dtos/LoginDto.cs" />
       <option value="$PROJECT_DIR$/API/Dtos/UserDto.cs" />
       <option value="$PROJECT_DIR$/Core/Interfaces/ITokenService.cs" />
       <option value="$PROJECT_DIR$/Infastructure/Services/TokenService.cs" />
@@ -133,7 +96,6 @@
       <option value="$PROJECT_DIR$/API/Helpers/OrderItemUrlResolver.cs" />
       <option value="$PROJECT_DIR$/API/Helpers/MappingProfiles.cs" />
       <option value="$PROJECT_DIR$/API/appsettings.json" />
-      <option value="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" />
       <option value="$PROJECT_DIR$/API/Dtos/CustomerBasketDto.cs" />
       <option value="$PROJECT_DIR$/Core/Entities/CustomerBasket.cs" />
       <option value="$PROJECT_DIR$/Core/Entities/OrderAggregate/Order.cs" />
@@ -142,6 +104,10 @@
       <option value="$PROJECT_DIR$/Core/Specifications/OrderByPaymentIntentIdWithItemsSpecification.cs" />
       <option value="$PROJECT_DIR$/API/Controllers/PaymentsController.cs" />
       <option value="$PROJECT_DIR$/Infastructure/Services/PaymentService.cs" />
+      <option value="$PROJECT_DIR$/Core/Interfaces/IResponseCacheService.cs" />
+      <option value="$PROJECT_DIR$/Infastructure/Services/ResponseCacheService.cs" />
+      <option value="$PROJECT_DIR$/API/Extensions/ApplicationServicesExtensions.cs" />
+      <option value="$PROJECT_DIR$/API/Helpers/CachedAttribute.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1l32wYSk9moyTtbKnMOll9RYy4o" />
@@ -216,7 +182,7 @@
       <workItem from="1609266539363" duration="6709000" />
       <workItem from="1609700822169" duration="1863000" />
       <workItem from="1609786486513" duration="13883000" />
-      <workItem from="1610105820748" duration="330000" />
+      <workItem from="1610105820748" duration="4680000" />
     </task>
     <servers />
   </component>
