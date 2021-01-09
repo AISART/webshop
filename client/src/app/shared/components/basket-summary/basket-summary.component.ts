@@ -6,7 +6,7 @@ import {IBasket, IBasketItem} from '../../models/basket';
 @Component({
 	selector: 'app-basket-summary',
 	templateUrl: './basket-summary.component.html',
-	styleUrls: ['./basket-summary.component.css']
+	styleUrls: ['./basket-summary.component.scss']
 })
 export class BasketSummaryComponent implements OnInit {
 	basket$: Observable<IBasket>;

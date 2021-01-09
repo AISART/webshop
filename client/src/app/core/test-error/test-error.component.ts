@@ -5,7 +5,7 @@ import {environment} from '../../../environments/environment';
 @Component({
 	selector: 'app-test-error',
 	templateUrl: './test-error.component.html',
-	styleUrls: ['./test-error.component.css']
+	styleUrls: ['./test-error.component.scss']
 })
 export class TestErrorComponent implements OnInit {
 	baseUrl = environment.apiUrl;

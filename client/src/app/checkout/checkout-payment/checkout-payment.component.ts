@@ -11,7 +11,7 @@ declare var Stripe;
 @Component({
 	selector: 'app-checkout-payment',
 	templateUrl: './checkout-payment.component.html',
-	styleUrls: ['./checkout-payment.component.css']
+	styleUrls: ['./checkout-payment.component.scss']
 })
 export class CheckoutPaymentComponent implements AfterViewInit, OnDestroy {
 	@Input() checkoutForm: FormGroup;
